@@ -10,26 +10,49 @@
 		  gtag('config', 'G-QTD2GD2J9F');
 		</script>
 		<script src="https://kit.fontawesome.com/b756e5d43d.js" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="tistyle.css">
+		
 		</head>
 <!--Nav bar-->
 
-
+<style>
+	#navbar ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #333;
+	}
+	
+	#navbar li {
+	  float: left;
+	}
+	
+	#navbar li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+	
+	#navbar li a:hover {
+	  background-color: #111;
+	}
+	</style>
 	<div id="navbar">
 	
 	<ul>
-	  <li><a href="https://stacy.decilem.com/">Home</a></li>
+	  <li><a class="active" href="https://stacy.decilem.com/">Home</a></li>
 	    <!--buy 
-	  <li><a href="#">Purchase On eBay</a></li>
+	  <li><a href="http://ebay.us/sqHABT?cmpnId=5338273189">Purchase On eBay</a></li>
 	  <li><a href="https://www.etsy.com/UndertowBoutique/listing/885762283/new-updated-animal-crossing-ultimate?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1603738993822">Purchase On Etsy</a></li>
 	  end -->
-	  <li><button id="myBtn" class="button">Place Order</button></li>
+	  <li><a href="#about">About</a></li>
 	  <li><a href="https://twitter.com/stacy_acnh" target="_blank" class="fab fa-twitter"> Twitter</a></li>
 	  <li><a href="https://instagram.com/stacy.acnh?igshid=1kxou4qg69r3x" target="_blank" class="fab fa-instagram"> Instagram</a></li>
 	</ul>
 	
 </div>
-
 <!--Nav barend -->
 
 <body data-new-gr-c-s-loaded="true"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></body>
@@ -45,47 +68,6 @@
 </div>
 </div>
 </div>
-
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-	<!-- Modal content -->
-	<div class="modal-content">
-	  <span class="close">&times;</span>
-	  <p>Unfortunately, this site doesn't support payment yet. If you are interested, please send me messages for more detail. My discord ID is Stacy#7635. Or click the Twitter and Instagram buttons on the top.</p>
-	</div>
-  
-  </div>
-  <script>
-	// Get the modal
-	var modal = document.getElementById("myModal");
-	
-	// Get the button that opens the modal
-	var btn = document.getElementById("myBtn");
-	
-	// Get the <span> element that closes the modal
-	var span = document.getElementsByClassName("close")[0];
-	
-	// When the user clicks the button, open the modal 
-	btn.onclick = function() {
-	  modal.style.display = "block";
-	}
-	
-	// When the user clicks on <span> (x), close the modal
-	span.onclick = function() {
-	  modal.style.display = "none";
-	}
-	
-	// When the user clicks anywhere outside of the modal, close it
-	window.onclick = function(event) {
-	  if (event.target == modal) {
-		modal.style.display = "none";
-	  }
-	}
-	</script>
-	
-
 
 <div style="border-left: 1px solid #F4F6F7; border-right: 1px solid #F4F6F7; color: #273C2C; line-height: 25px">
 <div class="container" style="padding: 40px 0 40px 0">
@@ -170,6 +152,81 @@
 <hr align="left" style="background: #35C88A; height: 1px; width: 10%" /> 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlidess {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+</style>
 
 
 
