@@ -20,10 +20,12 @@
    <link rel="stylesheet" href="css/default.css">
 	<link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/discordInvite.css"/>
 
    <!-- Script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
+   <script src="js/discordInvite.js"></script>
 
    <!-- Favicons
 	================================================== -->
@@ -390,23 +392,12 @@
    <!-- Call-To-Action Section
    ================================================== -->
    <section id="call-to-action">
+       
 
-      <div class="row">
+      <div class="row align-center">
 
-         <div class="eight columns offset-1">
-
-            <h1><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Host This Template on Dreamhost.</a></h1>
-            <p>Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
-					Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>. 
-					<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. --></p>
-
-         </div>
-
-         <div class="three columns action">
-
-            <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>
-
-         </div>
+         <!-- discord invite --->
+       <div id="discordInviteBox"></div>
 
       </div>
 
@@ -435,16 +426,7 @@
                
                </span>
             </li>
-            <!--
-            <li>
-               <span>
-               This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-               Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-               <a href="#">http://t.co/CGIrdxIlI3</a>
-               </span>
-               <b><a href="#">3 Days Ago</a></b>
-            </li>
-            -->
+           
          </ul>
 
          <p class="align-center"><a href="https://twitter.com/stacy_acnh" target="_blank" class="button">Follow us</a></p>
@@ -498,6 +480,13 @@
    <script src="js/jquery.flexslider.js"></script>
    <script src="js/doubletaptogo.js"></script>
    <script src="js/init.js"></script>
+   <script>
+      discordInvite.init({
+      inviteCode: 'TkbphTpcY2',
+      title: 'Stacy ACNH Islands',
+    });
+    discordInvite.render();
+    </script>
 
 </body>
 
