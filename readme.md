@@ -1,10 +1,10 @@
+----
 
-==================================================================================================
+### Note:
 
-This is my personal alternation of the html template. If you are interested in using the template, pleas go to 
-https://www.styleshout.com/free-templates/sparrow/
+This is my personal alternation of the template. If you are interested, you can use the original template [HERE](https://www.styleshout.com/free-templates/sparrow/). Otherwise, please don't directly clone my repository. 
 
-==================================================================================================
+----
 
 
 LICENSE:
@@ -51,7 +51,7 @@ If possible, kindly send us the site's url where the template is being used.
 Also, keep your Paypal receipt as proof of payment and your good to go.
 
 
------------------------------------------------------------------------------------------------------- 
+------------------------------------------------------------------------------------------------------
 
 
 SUPPORT:
@@ -72,7 +72,7 @@ jQuery in your skill-set, you can also check out these tutorials:
  - http://code.tutsplus.com/articles/jquery-for-absolute-beginners-video-series--net-2134
 
 
------------------------------------------------------------------------------------------------------- 
+------------------------------------------------------------------------------------------------------
 
 
 GET THE LATEST VERSION:
@@ -111,9 +111,9 @@ Javascript Files:
  - Modernizr (http://modernizr.com/)
  - DoubleTapToGo.js (http://osvaldas.info/examples/drop-down-navigation-touch-friendly-and-responsive/doubletaptogo.js)
 
---------------------------------------------------------------------------------------------------------- 
+---------------------------------------------------------------------------------------------------------
 
 
-Thanks for downloading from Styleshout :)
-  
+
+
 
