@@ -1,10 +1,8 @@
 
 ==================================================================================================
 
-SPARROW is a clean, modern and visually attractive template. It is designed to be a 
-multi-purpose site template. You can use it for many types of website: business, corporate, 
-portfolio, marketing, etc. It is built using html5 and CSS3, is fully responsive and looks great
-on different devices.
+This is my personal alternation of the html template. If you are interested in using the template, pleas go to 
+https://www.styleshout.com/free-templates/sparrow/
 
 ==================================================================================================
 
