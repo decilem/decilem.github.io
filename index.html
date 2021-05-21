@@ -459,21 +459,50 @@
                If you have any questions, please 
                <a href="https://twitter.com/messages/compose?recipient_id=stacy_acnh" 
                style="color:#008cff;" target="_blank">  
-                  send me a message</a> 
-                  on Twitter.
-               
+                  send me a message</a> on Twitter. 
                </span>
             </li>
-           
+            <li><span>Follow us on</span></li>
+        
          </ul>
 
-         <p class="align-center"><a href="https://twitter.com/stacy_acnh" target="_blank" class="button">Follow us</a></p>
+         <p class="align-center"><a href="https://twitter.com/stacy_acnh" target="_blank" class="button"> <i class="fa fa-twitter"></i> Twitter</a>
+           or  
+         <a href="https://instagram.com/stacy.acnh?igshid=1kxou4qg69r3x" target="_blank" class="button"><i class="fa fa-instagram"></i> Instagram</a>
+         </p>
+         
+
 
       </div>
 
    </section> <!-- Tweet Section End-->
 
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
 
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "106845574543654");
+  chatbox.setAttribute("attribution", "biz_inbox");
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v10.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 
    <!-- footer
    ================================================== -->
