@@ -126,22 +126,30 @@
 
               <h1>Hello. Let's connect.</h1>
 
-              <p class="lead">Friend me on social media by the links below or you can also manually add my Discord, Stacy#7635, the S is capital </p>
+              <p class="lead">Friend me on social media by the links below or you can also manually add my Discord</p>
              <div class="row">
-               <div class="column" >
-                  <h1><i class="fa fa-twitter"></i></h1>
-                  <p class="lead"><a href="https://twitter.com/stacy_acnh" target="_blank"> Follow me on Twitter</a></p>
+               <div class="ten columns centered" >
+                  <h1><i class="fa fa-twitter"></i><a href="https://twitter.com/stacy_acnh" target="_blank">&nbsp;Twitter</a></h1>
                 </div>
-                <div class="column" >
-                  <h1><i class="fa fa-instagram" target="_blank"></i></h1>
-                  <p class="lead"><a href="https://instagram.com/stacy.acnh?igshid=1kxou4qg69r3x"> Follow me on Instagram</a></p>
+                <div class="ten columns centered" >
+                  <h1><i class="fa fa-instagram" target="_blank"></i>
+                  <a href="https://instagram.com/stacy.acnh?igshid=1kxou4qg69r3x" target="_blank">&nbsp;Instagram</a></h1>
                 </div>
-                <div class="column" >
-                  <h1><i class="fab fa-discord"></i> </h1>
+                <div class="ten columns centered" >
+                  <h1><i class="fab fa-etsy"></i>
+                   <a href="https://www.etsy.com/shop/Cosmosland" target="_blank">&nbsp;ETSY</a></h1>
+                
+                </div>
+				<div class="ten columns centered" >
+                  <h1><i class="fab fa-discord"></i>&nbsp;Discord</h1>
+                
+                </div>
+                <div class="ten columns centered" >
                   <p class="lead">Add me on Discord, my ID is <span style="font-size: xx-large">Stacy#7635</span>. (the S is capital) You can also join my server below</p>
-                </div>
-               <!-- discord invite --->
+				  <!-- discord invite --->
                <div id="discordInviteBox"></div>
+                </div>
+               
                </div>
 		       
 		         
@@ -209,7 +217,7 @@
 				   </div>
 
                <div class="widget widget_photostream">
-                  <h5>Photostream</h5>
+                  <h5>Treasure Islands</h5>
                   <ul class="photostream cf">
                      <li><a href="uwti.html"><img src="images/GHTI/image/map.png" alt="thumbnail"></a></li>
                      <li><a href="uwsst.html"><img src="images/GHSST/image/map.png" alt="thumbnail"></a></li>
@@ -232,46 +240,37 @@
 
    
 
-   <!-- Tweets Section
-   ================================================== -->
-   <section id="tweets">
-
-      <div class="row">
-
-         <div class="tweeter-icon align-center">
-            <i class="fa fa-twitter"></i>
-         </div>
-
-         <ul id="twitter" class="align-center">
-            <li>
-               <span>
-               If you have any questions, please 
-               <a href="https://twitter.com/messages/compose?recipient_id=stacy_acnh" 
-               style="color:#008cff;" target="_blank">  
-                  send me a message</a> 
-                  on Twitter.
-               
-               </span>
-            </li>
-            <!--
-            <li>
-               <span>
-               This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-               Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-               <a href="#">http://t.co/CGIrdxIlI3</a>
-               </span>
-               <b><a href="#">3 Days Ago</a></b>
-            </li>
-            -->
-         </ul>
-
-         <p class="align-center"><a href="https://twitter.com/stacy_acnh" target="_blank" class="button">Follow us</a></p>
-
-      </div>
-
-   </section> <!-- Tweet Section End-->
 
  
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "106845574543654");
+  chatbox.setAttribute("attribution", "biz_inbox");
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v10.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
    <!-- footer
    ================================================== -->
    <footer>
