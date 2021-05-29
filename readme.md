@@ -2,7 +2,7 @@
 
 ### Note:
 
-#### This is my personal alternation of the template. If you are interested, you can use the original template [HERE](https://www.styleshout.com/free-templates/sparrow/). Otherwise, please don't directly clone my repository. 
+#### This is my personal alternation of the template. If you are interested, you can use the original template [HERE](https://www.styleshout.com/free-templates/sparrow/). 
 
 ----
 
